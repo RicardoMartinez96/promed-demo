@@ -1,0 +1,58 @@
+
+.theme-btn {
+    background-color: #008a3e;
+}
+
+.footer-bottom .copyright-text a {
+    color: #008a3e;
+}
+
+.header-inner {
+    padding: 20px 0px;
+}
+
+.main-header .logo img {
+    width: 100px;
+}
+
+.pricing-header h4.title {
+    padding-bottom: 0px;
+}
+
+.pricing-item .pricing-header {
+    padding: 10px 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .header-inner {
+        padding: 0px 0px;
+    }
+
+    .about-content-part h2 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .icon-visible {
+        display: none;
+    }
+
+    .experience-list {
+        margin-top: 0px;
+    }
+
+    .container-inner {
+        padding: 40px 20px;
+    }
+
+    .innerpage-single-area {
+        padding-top: 75px !important;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .icon-mobile {
+        display: none;
+    }
+}
